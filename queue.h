@@ -37,8 +37,8 @@ typedef struct
 
 int Queue_Creat(Queue_HandleType* handle, unsigned char* buf, 
                         unsigned short  element_size, unsigned short  element_num);
-int Queue_Push(Queue_HandleType* handle, unsigned char* data);
-int Queue_Pop(Queue_HandleType* handle, unsigned char* data);
+int Queue_Push(Queue_HandleType* handle, unsigned char* data, unsigned short num);
+int Queue_Pop(Queue_HandleType* handle, unsigned char* data, unsigned short num);
 #if 0
 void Queue_test(void);
 #endif
